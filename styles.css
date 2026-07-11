@@ -200,6 +200,10 @@ section { position: relative; }
   max-width: 56ch; margin-top: var(--space-5);
 }
 
+/* "See it in action" — let the heading & lead paragraphs stretch the full container width */
+#see .section-title,
+#see .section-lead { max-width: 100%; }
+
 /* ========================================================= Buttons */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2);
