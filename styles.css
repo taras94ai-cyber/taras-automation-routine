@@ -182,8 +182,8 @@ a, button, input, textarea, select, [role='button'] {
 @media (min-width: 768px) { .wrap { padding-inline: var(--space-10); } }
 
 section { position: relative; }
-.section-pad { padding-block: clamp(var(--space-14, 3.5rem), 7vw, var(--space-32)); }
-.section-pad-tight { padding-block: clamp(2.5rem, 5vw, var(--space-20)); }
+.section-pad { padding-block: clamp(2.25rem, 4vw, var(--space-16)); }
+.section-pad-tight { padding-block: clamp(1.75rem, 3vw, var(--space-10)); }
 
 .eyebrow {
   display: inline-flex; align-items: center; gap: var(--space-2);
@@ -290,7 +290,6 @@ section { position: relative; }
   filter: blur(16px); z-index: -1; pointer-events: none;
 }
 .hero-grid { display: grid; gap: var(--space-10); }
-@media (min-width: 980px) { .hero-grid { grid-template-columns: 1.1fr 0.9fr; align-items: center; gap: var(--space-12); } }
 
 .chip {
   display: inline-flex; align-items: center; gap: var(--space-2);
@@ -304,8 +303,8 @@ section { position: relative; }
 .hero h1 { font-size: clamp(2rem, 2.4vw + 1rem, 2.7rem); margin-top: var(--space-5); letter-spacing: -0.035em; white-space: nowrap; }
 @media (max-width: 899px) { .hero h1 { white-space: normal; font-size: clamp(1.7rem, 6.5vw, 2.3rem); } }
 .hero h1 .hl { color: var(--color-primary); }
-.hero-sub { font-family: var(--font-display); font-weight: 500; font-size: var(--text-xl); line-height: 1.2; color: var(--color-text); margin-top: var(--space-5); max-width: 26ch; }
-.hero-body { font-size: var(--text-base); color: var(--color-text-muted); max-width: 52ch; margin-top: var(--space-5); }
+.hero-sub { font-family: var(--font-display); font-weight: 500; font-size: var(--text-xl); line-height: 1.2; color: var(--color-text); margin-top: var(--space-5); max-width: none; }
+.hero-body { font-size: var(--text-base); color: var(--color-text-muted); max-width: none; margin-top: var(--space-5); }
 .hero-cta { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-7); }
 .hero-meta { display: flex; flex-wrap: wrap; gap: var(--space-5) var(--space-8); margin-top: var(--space-8); padding-top: var(--space-6); border-top: 1px solid var(--color-border); }
 .meta-item .meta-k { font-family: var(--font-display); font-weight: 600; font-size: var(--text-lg); }
@@ -313,6 +312,7 @@ section { position: relative; }
 
 /* Hero visual mockup */
 .hero-visual { position: relative; }
+.how-demo { max-width: 32rem; margin-inline: auto; margin-bottom: var(--space-8); }
 .mock {
   background: var(--color-surface); border: 1px solid var(--color-border);
   border-radius: var(--radius-xl); box-shadow: var(--shadow-lg);
@@ -342,7 +342,7 @@ section { position: relative; }
 @media (max-width: 540px) { .badge-1 { left: 0; } .badge-2 { right: 0; } }
 
 /* ========================================================= Steps */
-.steps { display: grid; gap: var(--space-5); margin-top: var(--space-10); }
+.steps { display: grid; gap: var(--space-5); margin-top: var(--space-6); }
 @media (min-width: 860px) { .steps { grid-template-columns: repeat(3, 1fr); } }
 .step { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-7); }
 .step-num { font-family: var(--font-display); font-weight: 600; font-size: var(--text-xl); color: var(--color-primary); }
