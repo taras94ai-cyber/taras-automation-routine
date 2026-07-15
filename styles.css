@@ -208,6 +208,10 @@ section { position: relative; }
 #how .section-title,
 #how .section-lead { max-width: 100%; }
 
+/* "Pricing" — same treatment: heading & intro paragraph in one full-width line */
+#pricing .section-title,
+#pricing .pricing-intro { max-width: 100%; }
+
 /* ========================================================= Buttons */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2);
