@@ -1,7 +1,7 @@
 /* =========================================================
    Taras IT — taras-it.com
    Palette: black (primary) diluted with blue + yellow accents
-   Fonts: Clash Display (display) + Manrope (body, matches brand) — Fontshare/Google
+   Fonts: Poppins (headings) + Manrope (body) — Google Fonts
    Mobile-first responsive.
    ========================================================= */
 
@@ -111,7 +111,7 @@
   --radius-xl: 1.6rem; --radius-full: 9999px;
   --transition: 200ms cubic-bezier(0.16, 1, 0.3, 1);
   --content-narrow: 680px; --content-default: 1080px; --content-wide: 1200px;
-  --font-display: 'Clash Display', 'Manrope', system-ui, sans-serif;
+  --font-display: 'Poppins', 'Manrope', system-ui, sans-serif;
   --font-body: 'Manrope', system-ui, -apple-system, sans-serif;
   --shadow-sm: 0 1px 2px oklch(var(--color-shadow) / 0.07);
   --shadow-md: 0 6px 22px oklch(var(--color-shadow) / 0.1);
@@ -429,6 +429,9 @@ section { position: relative; }
 }
 .price-name { font-size: var(--text-lg); font-weight: 700; }
 .price-amount { display: flex; align-items: baseline; gap: 0; white-space: nowrap; margin-top: var(--space-3); }
+.price-amount--range { display: block; white-space: normal; }
+.price-amount--range .amt { font-size: var(--text-xl); }
+.price-amount--range .per { display: block; font-size: var(--text-sm); font-weight: 600; color: var(--color-text-muted); margin-top: var(--space-1); }
 .price-amount .amt { font-family: var(--font-display); font-weight: 600; font-size: var(--text-3xl); letter-spacing: -0.03em; line-height: 1; }
 .price-amount .per { font-size: var(--text-sm); color: var(--color-text-muted); font-weight: 600; }
 .price-setup { font-size: var(--text-sm); color: var(--color-text-muted); margin-top: var(--space-2); }
