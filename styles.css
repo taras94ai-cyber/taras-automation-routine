@@ -421,7 +421,7 @@ section { position: relative; }
 .price-name { font-size: var(--text-lg); font-weight: 700; }
 .price-amount { display: flex; align-items: baseline; gap: 0; white-space: nowrap; margin-top: var(--space-3); }
 .price-amount--range { display: block; white-space: normal; }
-.price-amount--range .amt { font-size: var(--text-xs); }
+.price-amount--range .amt { font-size: 0.95rem; white-space: nowrap; }
 .price-amount--range .per { display: block; font-size: var(--text-sm); font-weight: 600; color: var(--color-text-muted); margin-top: var(--space-1); }
 .price-amount .amt { font-family: var(--font-display); font-weight: 600; font-size: var(--text-base); letter-spacing: -0.03em; line-height: 1; }
 .price-amount .per { font-size: var(--text-sm); color: var(--color-text-muted); font-weight: 600; }
