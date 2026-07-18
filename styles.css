@@ -421,13 +421,13 @@ section { position: relative; }
 .price-name { font-size: var(--text-lg); font-weight: 700; }
 .price-amount { display: flex; align-items: baseline; gap: 0; white-space: nowrap; margin-top: var(--space-3); }
 .price-amount--range { display: block; white-space: normal; }
-.price-amount--range .amt { font-size: var(--text-xl); }
+.price-amount--range .amt { font-size: var(--text-xs); }
 .price-amount--range .per { display: block; font-size: var(--text-sm); font-weight: 600; color: var(--color-text-muted); margin-top: var(--space-1); }
-.price-amount .amt { font-family: var(--font-display); font-weight: 600; font-size: var(--text-3xl); letter-spacing: -0.03em; line-height: 1; }
+.price-amount .amt { font-family: var(--font-display); font-weight: 600; font-size: var(--text-base); letter-spacing: -0.03em; line-height: 1; }
 .price-amount .per { font-size: var(--text-sm); color: var(--color-text-muted); font-weight: 600; }
 .price-setup { font-size: var(--text-sm); color: var(--color-text-muted); margin-top: var(--space-2); }
 .price-setup b { color: var(--color-text); font-weight: 700; }
-.price-custom { font-family: var(--font-display); font-weight: 600; font-size: var(--text-2xl); margin-top: var(--space-3); }
+.price-custom { font-family: var(--font-display); font-weight: 600; font-size: var(--text-sm); margin-top: var(--space-3); }
 .price-features { display: flex; flex-direction: column; gap: var(--space-3); margin-top: var(--space-6); flex: 1; }
 .price-features li { display: flex; gap: var(--space-3); align-items: flex-start; font-size: var(--text-sm); }
 .price-features .check { width: 1.3rem; height: 1.3rem; flex-shrink: 0; border-radius: 50%; background: var(--color-primary-soft); color: var(--color-primary); display: grid; place-items: center; margin-top: 0.1rem; }
